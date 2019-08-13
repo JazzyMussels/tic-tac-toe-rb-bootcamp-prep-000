@@ -80,6 +80,7 @@ def winner(board)
   'O'
 end
 
+<<<<<<< HEAD
 def play(board)
   until over?(board)
     turn(board)
@@ -87,4 +88,7 @@ def play(board)
   puts "Congratulations #{winner(board)}!" if won?(board)
   puts "Cat's Game!" if draw?(board)
 end
+=======
+
+>>>>>>> e38dfe5fea7f131af8a70a779682983786ae2ab4
 
